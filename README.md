@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Anish Kumar — 3D Portfolio (React + Vite + Three.js + GSAP)
 
 ## A. Run locally
@@ -34,3 +35,6 @@ Resume: `public/Anish_Kumar_Resume.pdf` (the Download button renders only if thi
 - `components/Scene3D.jsx`: one Three.js canvas (fixed, `pointer-events:none`, behind content). Each section has a `data-scene` attribute; ScrollTrigger tweens the sculpture to a pose defined in the `D` (desktop) and `M` (mobile) tables at the top of the file. Edit those numbers to reposition it.
 - CSS reserves a right gutter on desktop (`.sec` padding-right) where the sculpture parks; on mobile it shrinks to a corner and dims.
 - GSAP: hero entrance in `Hero.jsx`, scroll reveals in `App.jsx`. All are scoped to `gsap.context` and reverted on unmount; reduced-motion disables them and renders the scene statically.
+=======
+# portfolio
+>>>>>>> 9d03828bffd2f934b946c666c641d4d8f21a93b9
