@@ -1,0 +1,20 @@
+// Single source of truth. Append an object to add a project. Optional: number, githubUrl, liveUrl, image, screenshots[], details[].
+export const projects=[
+{id:'trekking-manager',title:'Trekking Manager',category:'Full-Stack Development',
+ summary:'A role-based trekking management application with Admin, Staff and Trekker workflows.',
+ description:'Account approval controls gate access, and each role gets its own workflow.',
+ technologies:['Python','Flask','SQLAlchemy','SQLite','Jinja2','Bootstrap','Flask-Login'],
+ features:['Authentication and authorization','Admin, Staff and Trekker workflows','Account approval controls','Flask Blueprints and Application Factory architecture','SQLAlchemy relationships','Functional testing of authentication, booking edge cases and API access control'],
+ githubUrl:'',liveUrl:'',image:'',featured:true},
+{id:'upchar-hospital',title:'Upchar Hospital Management Platform',category:'Full-Stack Development',
+ summary:'A hospital management platform with Admin, Doctor and Patient workflows and JWT role-based authentication.',
+ description:'Built with a Flask back end and a Vue 3 front end.',
+ technologies:['Python','Flask','Vue 3','SQLAlchemy','SQLite','JWT','Redis','Celery','Docker'],
+ features:['Role-based authentication','Normalized relational data models','Appointment workflow designed to prevent duplicate bookings through database constraints','Redis caching for frequently accessed read endpoints','Resume-listed tooling includes Redis, Celery and Docker'],
+ githubUrl:'',liveUrl:'',image:'',featured:true},
+{id:'churn-analysis',title:'Churn & Revenue Impact Analysis',category:'Data Analytics',
+ summary:'An end-to-end churn analytics pipeline for an OTT subscription business.',
+ description:'Focused on revenue leakage and retention strategy.',
+ technologies:['Python','SQL','SQLite','Pandas','NumPy','Matplotlib','Seaborn'],
+ features:['Analysis of more than 20 KPIs','Contract types, subscription plans and customer cohorts','MRR leakage and CLTV erosion among high-risk cohorts','Data-driven contract migration strategy to improve retention and reduce recurring revenue loss'],
+ githubUrl:'',liveUrl:'',image:'',featured:true}]
